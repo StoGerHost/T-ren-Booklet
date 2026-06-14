@@ -45,7 +45,7 @@
     width: 100%;
     height: 100%;
   }
-  .viewer-container iframe {
+  .viewer-container embed {
     width: 100%;
     height: 100%;
     border: none;
@@ -66,16 +66,16 @@
 </header>
 
 <div class="viewer-container">
-  <iframe
-    src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https%3A%2F%2Fstogerhost.github.io%2FT-ren-Booklet%2Ftueren-booklet.pdf"
-    title="Türenbooklet PDF-Viewer">
-  </iframe>
+  <embed
+    src="tueren-booklet.pdf"
+    type="application/pdf"
+    title="Türenbooklet PDF-Viewer" />
 </div>
 
 <noscript>
   <p class="fallback">
     Bitte öffne das PDF direkt über
-    <a href="https://mozilla.github.io/pdf.js/web/viewer.html?file=https%3A%2F%2Fstogerhost.github.io%2FT-ren-Booklet%2Ftueren-booklet.pdf">diesen Link</a>.
+    <a href="tueren-booklet.pdf">diesen Link</a>.
   </p>
 </noscript>
 
